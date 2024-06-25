@@ -1,0 +1,6 @@
+malloc
+free
+write
+read
+getopt
+getopt_long
