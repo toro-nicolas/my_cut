@@ -1,10 +1,10 @@
-name: stumper3
+name: my_cut
 
 on: [push, pull_request]
 
 env:
   MIRROR_URL: git@github.com:EpitechPromo2028/B-CPE-210-NCE-2-1-stumper3-nicolas.toro.git
-  EXECUTABLE: minicut
+  EXECUTABLE: my_cut
 
 jobs:
   check_coding_style:
