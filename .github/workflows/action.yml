@@ -30,7 +30,7 @@ jobs:
         run: make
         timeout-minutes: 2
       - name: Check banned functions
-        run: .github/workflows/check_banned_functions minicut .github/workflows/authorized_functions.txt
+        run: .github/workflows/check_banned_functions my_cut .github/workflows/authorized_functions.txt
       - name: Launch "make clean"
         run: make clean
       - name: Check program compilation
